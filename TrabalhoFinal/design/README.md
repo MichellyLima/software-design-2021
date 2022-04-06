@@ -42,3 +42,11 @@ Lorem ipsum
 
 ### Visão de Caso de Uso
 Lorem ipsum
+
+### Decisões Arquiteturais
+Com base nas visões fornecidas pelos Diagramas acima, realizamos algumas decisões arquiteturais:
+
+Decisão Arquitetural | Justificativa
+----- | ----------
+O estilo arquitetural adotado será **Cliente-Servidor** com **MVC**, estando as Views no Cliente e os Controllers, Models e serviços no Servidor| Visto que será necessária uma interface para utilização do sistema, e ainda comunicação REST com outros sistemas, o Cliente-Servidor conseguirá atender de forma satisfatória, combinado ao MVC para trazer segurança, manutenibilidade e escalabilidade.
+A aplicação será desenvolvida utilizando **Django**, um framework Web para Python | A linguagem Python possui uma série de recursos a disposição para tratamento de dados e busca em data sets, o que poderá ser bem útil para o desenvolvimento da aplicação com alta performance. A linguagem também oferece suporte para que possam ser implementados Scripts para ler os documentos obtidos dos Data Systems e armazená-los no Banco de Dados da aplicação.
