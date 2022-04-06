@@ -13,7 +13,8 @@ Os atores deste sistema serão os **Profissionais da Saúde** como usuários fin
 O **Profissional da Saúde** realiza uma consulta ao **Sistema de Consulta de Códigos**, que por sua vez fará consultas e processamentos internos para retornar as informações sobre o Código procurado, podendo vizualizá-las através de uma interface amigável para o usuário. Concorrentemente, os **Softwares de Terceiros** também podem enviar requisições de busca de código para o Sistema para utilizar os seus serviços e obter as mesmas informações.
 
 ### Visão Lógica
-![DiagramaDeClasse-Atualizacao_base_de_dados](https://user-images.githubusercontent.com/45233540/161885829-d5fb9968-f8d2-4670-b37b-b355c0906b7f.png)
+
+![DiagramaDeClasse-Atualizacao_base_de_dados](https://user-images.githubusercontent.com/30759534/162078022-e738ab2c-295e-4840-9792-25143169fcb1.png)
 
 Temos aqui dois processos principais. O primeiro demonstrado no diagrama acima é relativo a **busca e atualização dos documentos** das várias fontes de dados que serão disponibilizadas para consulta pelos usuários. A busca e atualização será realizada por **scripts** que farão um varredura nos sites da Rede Nacional de Dados em Saúde. Cada script será regido por um **Regra de Atualização**, que pode ser acionada por periodicidade ou por algum evento.
 
