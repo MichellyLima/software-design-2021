@@ -29,9 +29,9 @@ O usuário poderá **realizar a pesquisa indicando qual fonte de dados ele quer 
 
 
 ### Visão do Desenvolvedor
-![DiagramaDeComponentes](https://user-images.githubusercontent.com/59939824/162041099-e30d4cef-6a54-4632-867c-2c186049e3d4.png)
+![image](https://user-images.githubusercontent.com/43323869/162075965-d42a2f63-ac92-4409-b351-395a33525762.png)
 
-O diagrama mostra os diversos componentes que são considerados pela aplicação e como eles estarão relacionados entre si, em que as Consultas e os Cadastros enviarão códigos ao sistema que realiazará a consulta ou atualização dos registros no SGBD através da API.
+O diagrama mostra os diversos componentes que são considerados pela aplicação e como eles estarão relacionados entre si, em que as Consultas e os Cadastros enviarão códigos ao sistema que realizará a consulta ou atualização dos registros no SGBD através da API.
 
 ### Visão de Processo
 Para fornecer a Visão de Processo, fizemos uso de um Diagrama de Sequência:
