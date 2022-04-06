@@ -14,7 +14,7 @@ O **Profissional da Saúde** realiza uma consulta ao **Sistema de Consulta de C�
 
 ### Visão Lógica
 
-![DiagramaDeClasse-Atualizacao_base_de_dados](https://user-images.githubusercontent.com/30759534/162078022-e738ab2c-295e-4840-9792-25143169fcb1.png)
+![DiagramaDeClasse-Atualizacao_base_de_dados2](https://user-images.githubusercontent.com/30759534/162078251-02696180-05d8-45a5-b258-9f1455d75e6c.png)
 
 Temos aqui dois processos principais. O primeiro demonstrado no diagrama acima é relativo a **busca e atualização dos documentos** das várias fontes de dados que serão disponibilizadas para consulta pelos usuários. A busca e atualização será realizada por **scripts** que farão um varredura nos sites da Rede Nacional de Dados em Saúde. Cada script será regido por um **Regra de Atualização**, que pode ser acionada por periodicidade ou por algum evento.
 
