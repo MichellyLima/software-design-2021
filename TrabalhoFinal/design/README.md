@@ -48,7 +48,21 @@ A Visão de Implantação do sistema pode ser ilustrada com o seguinte Diagrama 
 Todos os componentes físicos do sistema se comunicam via HTTP, através da internet. O servidor da aplicação Sistema de Consulta de Códigos executa o backend, frontend, script de busca e atualização e o banco de dados. O script de busca e atualização adquire, periodica e seletivamente, os conjuntos de códigos FHIRPath no servidor da Rede Nacional de Dados em Saúde, armazenando-os em banco de dados MongoDB (NoSQL). Estes dados podem ser acessados por dispositivos diversos por usuários cadastrados (profissionais de saúde) ou pelo administrador do sistema através de navegadores web, conectando-se ao frontend da aplicação, desenvolvido utilizando Django. Aplicações terceiras podem, assim como o frontend da aplicação, se conectar diretamente ao backend da aplicação, uma API Python responsável por receber requisições HTTP e, após buscar os dados requisitados no banco de dados, as responder.
 
 ### Visão de Caso de Uso
-Lorem ipsum
+
+#### **Atores**
+Esse tópico descreve os atores, juntamente com as suas responsabilidades para com o Sistema. 
+
+|**Papel**|**Descrição**|**Responsabilidade**|
+| :- | :- | :- |
+|Usuário|Usuário que realiza o próprio cadastro e que possui menor nível de acesso.|Loga e desloga do sistema, realiza consulta de códigos da saúde e adiciona sinônimos equivalentes para códigos|
+|Administrador|Usuário que possui maior nível de acesso entre todos.|Loga e desloga do sistema, realiza consulta de códigos da saúde e executa Script de atualização do BD|
+|CodAplic|Outro sistema que consome serviço do nosso sistema (Códigos Saúde).|Consulta de códigos da saúde|
+|Convidado|Usuário sem identificação que utiliza o sistema via web.|Consulta de códigos da saúde|
+
+#### **Diagrama de Caso de Uso**
+
+![CasosDeUso 02 drawio](https://user-images.githubusercontent.com/30759534/162077306-9f55bc98-cae8-44aa-b238-cd3ecf7187e1.png)
+
 
 ### Decisões Arquiteturais
 Com base nas visões fornecidas pelos Diagramas acima, realizamos algumas decisões arquiteturais:
