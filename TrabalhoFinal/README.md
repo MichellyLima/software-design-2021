@@ -1,5 +1,5 @@
 ## Códigos
-Contribuintes: Ariel Marte, Gustavo Martins, Marco Feitosa, Michelly Lima
+Contribuintes: Ariel Marte, Gustavo Martins, Marco Feitosa, Michelly Lima, Christopher Star
 
 **🛠 Em desenvolvimento**
 
